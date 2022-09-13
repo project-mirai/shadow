@@ -77,9 +77,10 @@ tasks.whenTaskAdded {
 }
 
 pluginBundle {
-    website = 'https://github.com/johnrengelman/shadow'
-    vcsUrl = 'https://github.com/johnrengelman/shadow'
+    website = 'https://github.com/project-mirai/shadow/tree/fix-remapper'
+    vcsUrl = 'https://github.com/project-mirai/shadow'
     tags = ['onejar', 'shade', 'fatjar', 'uberjar']
+    mavenCoordinates.groupId = "net.mamoe"
 
     plugins {
         shadowPlugin {
