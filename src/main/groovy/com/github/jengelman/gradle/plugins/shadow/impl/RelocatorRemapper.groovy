@@ -115,4 +115,8 @@ class RelocatorRemapper extends Remapper {
         mapPath(path.pathString)
     }
 
+    @Override
+    String mapInnerClassName(String name, String ownerName, String innerName) {
+        return innerName
+    }
 }
